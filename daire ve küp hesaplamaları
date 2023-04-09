@@ -1,0 +1,50 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <locale.h>
+
+int main(){
+
+    setlocale(LC_ALL,"Turkish");
+    /*
+    float pi = 3.14;
+    float cemberinyaricapi;
+
+    printf("Çemberin Yarı çapını Giriniz...");
+    scanf("%f",&cemberinyaricapi);
+
+    printf("çemberin alanı: %f\n",picemberinyaricapicemberinyaricapi);
+    printf("Çemberin çevresi : %f\n",2picemberinyaricapi);*/
+
+
+
+    float kupbirkenar;
+
+    printf("Bana bir küp kenarı söyle sana hacmini ve yanal alanları toplamını söyleyeyim...\n");
+    scanf("%f",&kupbirkenar);
+
+    float yanalalanlaritoplami = 6 * kupbirkenar * kupbirkenar;
+    float kupunhacmi = kupbirkenar * kupbirkenar * kupbirkenar;
+
+
+
+    printf("Küpün yanal alanlarının toplamı %.2f\n",yanalalanlaritoplami);
+    printf("Küpün hacmi: %.3f",kupunhacmi);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+return 0;
+
+}
